@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://phuocbthuynh.github.io/sitemap.xml
