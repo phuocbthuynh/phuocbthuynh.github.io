@@ -357,6 +357,21 @@ a:hover{text-decoration:underline}
   width: 400px;
   height: auto;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  flex: 1;   /* đẩy footer xuống đáy */
+}
+
+
 /* Footer: thanh ở cuối trang */
 .site-footer {
   margin-top: 48px;
