@@ -428,10 +428,12 @@ body {
 
   .site-footer-copy {
     text-align: center;
+    font-size: 12px;
   }
 
   .site-footer-top {
     align-self: center;
     margin-top: 4px;
+    font-size: 11px;
   }
 }
