@@ -357,4 +357,61 @@ a:hover{text-decoration:underline}
   width: 400px;
   height: auto;
 }
+/* Footer */
+.site-footer {
+  margin-top: 48px;
+  padding: 0 16px 24px;
+}
+
+.site-footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  background: #222;
+  color: #f5f5f5;
+  border-radius: 20px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-footer-logo img {
+  height: 32px;      /* chỉnh lớn/nhỏ logo ở đây */
+  width: auto;
+  display: block;
+}
+
+.site-footer-copy {
+  flex: 1;
+  font-size: 14px;
+}
+
+.site-footer-top {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+.site-footer-top:hover {
+  color: #ffffff;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .site-footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 18px;
+  }
+
+  .site-footer-logo img {
+    height: 28px;
+  }
+
+  .site-footer-top {
+    align-self: flex-end;
+    margin-top: 4px;
+  }
+}
 
