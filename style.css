@@ -442,13 +442,19 @@ body {
 }
 
 /*Sidebar banner*/
+/* Banner trong sidebar */
 .sidebar-banner {
-  margin-top: 16px;
+  width: 100%;
+  text-align: center;      
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .sidebar-banner img {
-  width: 100%;
+  width: 90%;              
+  max-width: 260px;        
   height: auto;
-  border-radius: 12px;
   display: block;
+  margin: 0 auto;          
+  border-radius: 12px;     
 }
