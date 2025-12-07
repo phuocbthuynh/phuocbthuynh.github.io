@@ -451,10 +451,12 @@ body {
 }
 
 .sidebar-banner img {
-  width: 150%;              
+  width: 100%;              
   max-width: none;        
   height: auto;
   display: block;
-  margin: 0 auto;          
+  margin: 0 auto;
+  transform: scale(1.5);      
+  transform-origin: center center; 
   border-radius: 12px;     
 }
