@@ -440,3 +440,15 @@ body {
 .site-footer-logo {
   display: none;
 }
+
+/*Sidebar banner*/
+.sidebar-banner {
+  margin-top: 16px;
+}
+
+.sidebar-banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
