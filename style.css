@@ -437,3 +437,6 @@ body {
     font-size: 10px;
   }
 }
+.site-footer-logo {
+  display: none;
+}
